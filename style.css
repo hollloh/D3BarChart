@@ -1,0 +1,24 @@
+
+* {
+/*border: 1px solid #8f8;*/
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 13px;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  transition: 0.5s;
+}
+
+.bar {
+  stroke: #616;
+  stroke-width: 0.5px;
+}
+
+.bar:hover {
+  fill: #0f0;
+}
