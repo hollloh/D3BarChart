@@ -46,7 +46,7 @@ function makeD3Svg(x) {
               .attr('data-date', d[0])
               .offset([-50, -30])
               .html( (d) => d[0].slice(0, -6) + ' Q-' + d[0].slice(5, -3) + '<br />$' + d[1] + ' billion');
-       if (d[1] < 390) {
+       if (d[1] < 400) {
          tooltip.offset([-50, 60]);
        }
        if (d[1] > 16000) {
