@@ -1,5 +1,5 @@
 
-html {
+* {
 /*border: 1px solid #8f8;*/
   background-color: #000;
   color: #0f0;
@@ -9,9 +9,13 @@ html {
   margin: 1px;
   padding: 1px;
   text-align: center;
+  transition: 0.5s;
+}
+
+/*  */
+html {
   width: auto;
   height: auto;
-  transition: 0.5s;
 }
 
 .bar {
